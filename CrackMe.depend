@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1539631754 source:d:\documents\applications\crackme\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+
