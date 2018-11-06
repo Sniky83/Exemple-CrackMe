@@ -14,7 +14,7 @@ void EntrerMotDePasse()
 
     ret = strcmp(MDP, MotDePasse);
 
-    if(ret < 0 || ret > 0)
+    if(ret != 0)
     {
         system("cls");
         printf("\nMot de passe incorect !\n\n");
@@ -32,7 +32,7 @@ int main()
 
     do{
         EntrerMotDePasse();
-    }while(ret < 0 || ret > 0);
+    }while(ret != 0);
     printf("\n\nTapez sur une touche de votre clavier pour sortir de l'application.");
     choix = getch();
     while(choix < 0)
